@@ -9,7 +9,7 @@ As a passionate tech enthusiast and dedicated data science enthusiast, I am driv
 - 🔭 I’m currently working on App Development  
   
 
-- 🌱 I’m currently working on Advance Java Essientials
+- 🌱 I’m currently working on Advance Java Essentials
   
 
 <br/>  

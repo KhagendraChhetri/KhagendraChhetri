@@ -1,15 +1,7 @@
 
-  
-
 <div align="center">Hi there, I'm Khagendra 👋
-As a passionate tech enthusiast and dedicated data science enthusiast, I am driven by an insatiable curiosity for the world of data analysis, data science, and machine learning. With a strong commitment to continuous learning and a vision of harnessing the power of data for meaningful insights, I aspire to embark on a career journey marked by innovation, analytical excellence, and positive impact.
+
  🚀</div>
-  
-
-- 🔭 I’m currently working on App Development  
-  
-
-- 🌱 I’m currently working on Advance Java Essentials
   
 
 <br/>  

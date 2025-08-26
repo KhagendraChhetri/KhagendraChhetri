@@ -45,7 +45,7 @@
 ## Github PL Stats  
   
 <div align="center">
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=KhagendraChhetri&show_icons=true&locale=en&layout=compact" alt="KhagendraChhetri" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=KhagendraChhetri&show_icons=true&locale=en&layout=compact" alt="KhagendraChhetri" /></p>
 </div>  
 
 <br/>

@@ -37,9 +37,8 @@
 ## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=KhagendraChhetri&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
-</p>  
-
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=KhagendraChhetri" alt="Top Languages" />
+</p>
 ---
 
 ## 🤝 Connect with Me  

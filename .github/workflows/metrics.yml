@@ -2,7 +2,7 @@ name: Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * 1" # Every Monday at midnight UTC
+    - cron: "0 0 * * 1" # Every Monday
   workflow_dispatch:
 
 jobs:
@@ -15,4 +15,4 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: KhagendraChhetri
           base: header, activity, community, repositories, metadata
-          config_timezone: Europe/London
+          config_timezone: Asia/Kathmandu

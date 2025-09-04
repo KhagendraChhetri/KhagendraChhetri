@@ -33,12 +33,13 @@
 
 ---
 
-## 📊 GitHub Stats  
+## 📊 GitHub Activity (Auto-Updated)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=KhagendraChhetri" alt="Top Languages" />
+  <img src="./metrics.svg" alt="GitHub Metrics" />
 </p>
 
+---
 
 ## 🤝 Connect with Me  
 

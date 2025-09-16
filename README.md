@@ -36,7 +36,7 @@
 ## 📊 GitHub Activity (Auto-Updated)
 
 <p align="center">
-  <img src="https://github.com/KhagendraChhetri/metrics/blob/main/metrics.svg?raw=true" alt="GitHub Metrics" />
+  <img src="https://raw.githubusercontent.com/KhagendraChhetri/KhagendraChhetri/main/metrics.svg" alt="GitHub Metrics" />
 </p>
 
 ---

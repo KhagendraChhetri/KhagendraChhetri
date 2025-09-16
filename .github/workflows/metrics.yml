@@ -9,7 +9,11 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate metrics.svg
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -17,25 +21,29 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kathmandu
 
-          # ✅ Show most-used programming languages
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_indepth: yes
           plugin_languages_limit: 8
           plugin_languages_ignored: html, css
 
-          # ✅ Show starred repos
           plugin_stars: yes
           plugin_stars_limit: 4
 
-          # ✅ Show commit activity
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
           plugin_activity_filter: all
 
-          # ✅ Show lines of code changes
           plugin_lines: yes
 
-          # ✅ Show followers / following
           plugin_followup: yes
+
+      - name: Commit and push metrics.svg
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add metrics.svg
+          git commit -m "Auto-update GitHub metrics"
+          git push
+        continue-on-error: true
